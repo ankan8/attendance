@@ -1,0 +1,35 @@
+
+  /* styles.css */
+  *{
+    font-family: sans-serif;
+  }
+  .msg{
+    color: red;
+  }
+
+/* This class centers the content of the page both horizontally and vertically */
+.qr {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Full viewport height */
+    background-color: #f0f0f0; /* Light background color */
+  }
+  
+  .ok {
+    text-align: center;      /* Center text and QR code */
+    background-color: #ffffff; /* White background for the content */
+    padding: 20px;          /* Padding around the content */
+    border-radius: 10px;   /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a slight 3D effect */
+  }
+  
+  .tt {
+    margin-bottom: 20px; /* Space below QR code */
+  }
+  
+  p {
+    font-size: 18px; /* Font size for the paragraph */
+    margin: 0; /* Remove default margin */
+  }
+  

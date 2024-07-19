@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Container for the table */
+.box {
+    display: flex;
+    justify-content: center; /* Center table horizontally */
+    align-items: center;     /* Center table vertically */
+               /* Full viewport height */
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px;
+  }
+  
+  /* Table styling */
+  .hh {
+    width: 80%; /* Adjust width as needed */
+    border-collapse: collapse; /* Merge table borders */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  /* Table header styling */
+  .uu {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text color */
+    text-align: center;
+  }
+  
+  .uu th {
+    padding: 12px; /* Padding for header cells */
+    text-align: left; /* Align text to the left */
+    font-size: 16px; /* Font size for header text */
+  }
+  
+  /* Table body styling */
+  tbody tr {
+    border-bottom: 1px solid #ddd; /* Light border between rows */
+  }
+  
+  tbody td {
+    padding: 12px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+    font-size: 14px; /* Font size for cell text */
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 18px; /* Font size for no data message */
+    color: #666; /* Gray color for text */
+    text-align: center; /* Center text */
+  }
+  
